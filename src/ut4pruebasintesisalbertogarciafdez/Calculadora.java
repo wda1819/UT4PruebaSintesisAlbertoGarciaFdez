@@ -21,14 +21,26 @@ public class Calculadora {
         return operacion;
     }
 
+    /**
+     * 
+     * @param operador1 Valor de tipo entero que se lee desde programa principal
+     */
     public void setOperador1(int operador1) {
         this.operador1 = operador1;
     }
-
+    
+    /**
+     * 
+     * @param operador2 Valor de tipo entero que se lee desde programa principal
+     */
     public void setOperador2(int operador2) {
         this.operador2 = operador2;
     }
 
+    /**
+     * 
+     * @param operacion Valor de tipo entero que se lee desde programa principal
+     */
     public void setOperacion(int operacion) {
         this.operacion = operacion;
     }
